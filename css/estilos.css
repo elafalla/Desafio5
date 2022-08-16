@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-/* FUNTE PRINCIPAL */
+/* FUENTE PRINCIPAL */
 html {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -128,7 +128,6 @@ footer p {
 nav ul li {
   display: inline-block;
   list-style-type: none;
-
 }
 
 /* EXCLUSIVOS DE INDEX.HTML */
@@ -346,21 +345,59 @@ aside h3 {
 }
 
 /* EXCLUSIVO DE CONTACTO */
-.formulario {
-  margin-left: 15px;
-  padding: 15px;
-  border: 2px blue solid;
-  width: fit-content;
-  font-size: small;
-  box-shadow: 3px 3px 10px;
+.contenedor {
+  background: #24303c;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.contenedor h3 {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
 }
 
 .campo {
-  border: 1px blue solid;
-  display: block;
-  width: 70%;
+  width: 90%;
+  background-color: transparent;
   padding: 10px;
-  margin: 10px auto;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  border: 1px solid blue;
+  font-size: 16px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  width: 100%;
+  height: 45px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  background: linear-gradient(to right top, #005aa7, #fffde4);
+  font-size: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.button:active {
+  transform: translateY(3px);
+}
+
+.campo:focus {
+  height: 40px;
 }
 
 .datos {
@@ -368,6 +405,11 @@ aside h3 {
   padding-bottom: 30px;
   grid-area: direccion;
   justify-self: center;
+}
+
+.datos h3 {
+  text-align: center;
+  margin-top: 40px;
 }
 
 .pContacto {
@@ -383,23 +425,9 @@ aside h3 {
   justify-content: center;
 }
 
-.button {
-  width: 150px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 14px;
-  border-radius: 4px;
-  background-color: blue;
-  font-weight: bold;
-  margin: auto;
-}
-
-.datos h3 {
-  text-align: center;
-}
-
 .parrafoCont {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .gridPadreCont {
@@ -695,5 +723,14 @@ aside h3 {
     position: fixed;
     right: 5px;
     top: 5px;
+  }
+
+  .footer nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 9pt;
+    font-weight: bold;
+    justify-content: center;
+    margin-left: 10px;
   }
 }

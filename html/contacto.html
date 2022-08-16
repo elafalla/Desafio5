@@ -9,6 +9,9 @@
     <link rel="shortcut icon" href="../img/Logo_1.png" type="image/x-icon" />
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css" />
+    <!-- ANIMACION FORM -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <header class="header">
@@ -30,25 +33,22 @@
     <main class="gridPadreCont">
       <section id="contacto">
         <form class="formulario">
-          <h3>Formulario de contacto</h3>
-          <div>
+          <div class="contenedor wow animate__bounceIn">
+            <h3>FORMULARIO DE CONTACTO</h3>
             <input class="campo" type="text" placeholder="Nombre y apellido" />
             <input class="campo" type="text" placeholder="Email" />
             <input class="campo" type="tel" placeholder="Número de teléfono" />
             <input class="campo" type="text" placeholder="Ciudad" />
-          </div>
-          <textarea
-            class="campo"
-            name="mensaje_usuario"
-            id="msg"
-            cols="60"
-            rows="10"
-            placeholder="Ingrese su mensaje"
-          ></textarea>
-
-          <div>
-            <input class="button" type="submit" />
-            <input class="button" type="reset" />
+            <textarea
+              class="campo"
+              name="mensaje_usuario"
+              id="msg"
+              cols="60"
+              rows="10"
+              placeholder="Ingrese su mensaje"
+            ></textarea>
+            <button class="button">Enviar</button>
+            <button class="button">Borrar</button>
           </div>
         </form>
       </section>
