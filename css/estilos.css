@@ -120,9 +120,14 @@ footer p {
 
 .logo_wapp {
   position: fixed;
-  right: 5px;
-  bottom: 270px;
+  right: 20px;
+  bottom: 260px;
   opacity: 60%;
+}
+
+.logo_wapp img {
+  width: 60px;
+  height: auto;
 }
 
 nav ul li {
@@ -506,8 +511,13 @@ aside h3 {
 
   .logo_wapp {
     position: fixed;
-    right: 0;
-    top: 5px;
+    right: 10px;
+    top: 10px;
+  }
+
+  .logo_wapp img {
+    width: 40px;
+    height: auto;
   }
 }
 
@@ -617,7 +627,12 @@ aside h3 {
   .logo_wapp {
     position: fixed;
     right: 5px;
-    top: 5px;
+    top: 15px;
+  }
+
+  .logo_wapp img {
+    width: 40px;
+    height: auto;
   }
 }
 
@@ -723,6 +738,11 @@ aside h3 {
     position: fixed;
     right: 5px;
     top: 5px;
+  }
+  
+  .logo_wapp img {
+    width: 40px;
+    height: auto;
   }
 
   .footer nav ul li a {
