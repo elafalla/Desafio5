@@ -579,11 +579,6 @@ aside h3 {
       "direccion";
   }
 
-  #contacto {
-    justify-self: center;
-    padding-bottom: 20px;
-  }
-
   .faqPregunta {
     font-size: 10pt;
   }
@@ -613,6 +608,8 @@ aside h3 {
   }
 
   #contacto {
+    justify-self: center;
+    padding-bottom: 20px;
     width: 80vw;
   }
 
@@ -689,11 +686,6 @@ aside h3 {
       "direccion";
   }
 
-  #contacto {
-    justify-self: center;
-    padding-bottom: 20px;
-  }
-
   .faqPregunta {
     font-size: 10pt;
   }
@@ -723,7 +715,14 @@ aside h3 {
   }
 
   #contacto {
+    justify-self: center;
+    padding-bottom: 20px;
     width: 80vw;
+  }
+
+  .contenedor {
+    width: 90%;
+    padding: 4%;
   }
 
   .ubicacion {
@@ -739,7 +738,7 @@ aside h3 {
     right: 5px;
     top: 5px;
   }
-  
+
   .logo_wapp img {
     width: 40px;
     height: auto;
